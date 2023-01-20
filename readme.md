@@ -9,8 +9,10 @@ For installation on OSX you need these steps:
   $ mkdir pico-rtos
   $ cd pico-rtos
   $ git clone https://github.com/RaspberryPi/pico-sdk --recurse-submodules
+  $ git clone https://github.com/raspberrypi/pico-extras.git --recurse-submodules
   $ git clone -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel --recurse-submodules
   $ export PICO_SDK_PATH=$PWD/pico-sdk
+  $ export PICO_EXTRAS_PATH=$PWD/pico-extras
   $ export FREERTOS_KERNEL_PATH=$PWD/FreeRTOS-Kernel
 ```
 
